@@ -1,13 +1,20 @@
+/*
+Al presionar el botón pedir 5 números e informar la suma acumulada y el promedio. 
+*/
 function mostrar()
 {
-	var contador;
-	var acumulador;
-	var numeroIngresado;
+	var numeroIngresado
+	var cantidaDeNumeros
+	var sumaDeNumeros
+	var promedioDeNumeros
+	cantidaDeNumeros = 0
+	
 
-	contador=0;
-	acumulador=0;
+	while(cantidaDeNumeros<6)
+	{
+		cantidaDeNumeros = cantidaDeNumeros + 1
+
+	}
+
 	
-	
-	txtIdSuma.value=acumulador;
-	txtIdPromedio.value=acumulador/5;
 }//FIN DE LA FUNCIÓN
